@@ -36,7 +36,7 @@ for key,value in data.items():
     if len(faceLoc)==1:
       newdict[j]=value
 
-  	'''IF you want to know what happening you can...uncomment this'''
+  	'''IF you want to know what's happening you can...uncomment this'''
     # for (x, y, w, h) in faceLoc:
     #     print(x,y,w,h)
     #     cv2.rectangle(imgElon, (h, x), (y,w), (0,255,0), 2)
