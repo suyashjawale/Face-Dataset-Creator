@@ -1,13 +1,9 @@
-import io
-from PIL import Image
-import base64
-from unidecode import unidecode
 import urllib.request
 from selenium import webdriver	 
 import json
 import time
 import os
-# from win32com.client import Dispatch
+from win32com.client import Dispatch
 from zipfile import ZipFile
 from bs4 import BeautifulSoup
 import requests
